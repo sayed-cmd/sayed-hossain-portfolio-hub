@@ -15,41 +15,42 @@ const experiences: Experience[] = [
   {
     company: "REDX",
     position: "Operations Manager",
-    duration: "2021 - Present",
-    location: "Dhaka, Bangladesh",
+    duration: "2021 - 2025",
+    location: "Barishal, Bangladesh",
     description: [
-      "Lead a team of 15+ staff managing nationwide logistics operations",
+      "Lead a team of 35+ staff managing nationwide logistics operations",
       "Implemented data pipelines and dashboards to track KPIs, improving operational efficiency by 25%",
       "Developed automated reporting systems using SQL and Python that reduced reporting time by 80%",
-      "Created strategic plans resulting in 15% cost reduction while maintaining service quality"
+      "Created strategic plans resulting in 15% cost reduction while maintaining service quality."
     ],
-    skills: ["Operations Management", "SQL", "Data Analysis", "Team Leadership"],
+    skills: ["3PL Operations Management", "Automation", "Data Analysis", "Team Leadership"],
   },
   {
-    company: "Al Zamzam",
-    position: "Data Reporting Specialist",
-    duration: "2018 - 2021",
+    company: "Al Zamzam Trade",
+    position: "Virtual Sales Manager",
+    duration: "2020 - 2021",
     location: "Dhaka, Bangladesh",
     description: [
-      "Built comprehensive reporting systems for business metrics across 5 departments",
-      "Automated daily and weekly reports using Google Sheets and Apps Script",
+      "Set sales goals as needed.",
+      "Assess the current team process and procedure.",
+      "Identify opportunities for improvement and implement them.",
       "Trained team members on data analysis methodologies, improving team capability by 40%",
-      "Collaborated with IT to implement new CRM system that streamlined customer data management",
+      "Collaborated with IT to implement new CRM system that streamlined customer data management.",
     ],
-    skills: ["Data Reporting", "Google Sheets", "Process Automation", "CRM Systems"],
+    skills: ["Sales & Marketing", "Digital Marketing", "Process Automation", "CRM Systems"],
   },
   {
-    company: "Firoz Chemicals",
-    position: "Administrative Assistant",
-    duration: "2016 - 2018",
+    company: "Pidilite Speciality Chemicals ",
+    position: "Territory Sales In-charge",
+    duration: "2019 - 2020",
     location: "Dhaka, Bangladesh",
     description: [
-      "Managed office operations and coordinated with multiple departments",
-      "Created Excel templates that improved inventory tracking accuracy by 35%",
-      "Assisted in developing documentation systems for regulatory compliance",
-      "Supported the management team in data collection and presentation for board meetings"
+      "Present, promote, and sell products to existing and prospective customers.",
+      "Establish, develop, and maintain positive business.",
+      "Achieve agreed-upon sales targets and outcomes within the schedule",
+      "Analyze the territory/market’s potential, track sales, and status reports."
     ],
-    skills: ["Excel", "Office Administration", "Documentation", "Data Collection"],
+    skills: ["Sales", "Distribution Management", "Product Promotion", "Maintain Relations"],
   },
 ];
 
@@ -60,7 +61,7 @@ const ExperienceSection = () => {
         <h2 className="section-title text-center mx-auto after:left-1/2 after:-translate-x-1/2">Work Experience</h2>
         <p className="text-center text-gray-700 max-w-2xl mx-auto mb-12">
           My professional journey spans multiple roles where I've consistently delivered results
-          through data-driven operations management and process optimization.
+          through data-driven operations management, Sales, and process optimization.
         </p>
         
         <div className="flex flex-col gap-6 mt-8 max-w-4xl mx-auto">
