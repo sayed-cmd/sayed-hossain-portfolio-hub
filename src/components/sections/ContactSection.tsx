@@ -28,9 +28,9 @@ const ContactSection = () => {
     
     try {
       // Replace these with your actual EmailJS service, template and user IDs
-      const serviceId = "YOUR_EMAILJS_SERVICE_ID";
-      const templateId = "YOUR_EMAILJS_TEMPLATE_ID";
-      const publicKey = "YOUR_EMAILJS_PUBLIC_KEY";
+      const serviceId = "service_2vsty3m";
+      const templateId = "template_wo6f1xq";
+      const publicKey = "Mg1KF6JcBIwW1bGtx";
       
       // Send the email using EmailJS
       const result = await emailjs.send(
