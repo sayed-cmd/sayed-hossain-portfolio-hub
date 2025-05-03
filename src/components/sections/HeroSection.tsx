@@ -29,7 +29,7 @@ const HeroSection = () => {
           <div className="md:w-1/2 mb-8 md:mb-0 flex justify-center animate-fade-in" style={{ '--scroll-delay': 2 } as React.CSSProperties}>
             <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden rounded-full border-4 border-primary shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" 
+                src="/lovable-uploads/9f2beb7d-6a0a-4b0c-9f2e-0a21fdb22643.png" 
                 alt="Md. Sayed Hossain" 
                 className="object-cover w-full h-full"
               />
