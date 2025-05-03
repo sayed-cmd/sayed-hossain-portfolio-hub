@@ -18,7 +18,7 @@ const AboutSection = () => {
           
           <div className="md:w-3/5">
             <h3 className="text-2xl font-bold mb-4 text-primary">
-              Operations Manager & Data Reporting Specialist
+              3PL Operations Manager & Data analytics Specialist
             </h3>
             
             <p className="mb-4 text-gray-700">
@@ -28,7 +28,7 @@ const AboutSection = () => {
             </p>
             
             <p className="mb-6 text-gray-700">
-              I'm passionate about leveraging technology—particularly SQL, Python, and automation tools—to 
+              I'm passionate about leveraging technology, particularly automation tools, to 
               streamline operations and drive efficiency. Throughout my career at companies like REDX and Al Zamzam,
               I've successfully implemented data-driven solutions that have improved operational performance and 
               decision-making processes.
@@ -37,7 +37,7 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-4 mb-6">
               <InfoItem label="Experience" value="5+ Years" />
               <InfoItem label="Location" value="Dhaka, Bangladesh" />
-              <InfoItem label="Email" value="contact@sayedhossain.com" />
+              <InfoItem label="Email" value="saiedhossain76@gmail.com" />
               <InfoItem label="Availability" value="Full-time / Consulting" />
             </div>
             
