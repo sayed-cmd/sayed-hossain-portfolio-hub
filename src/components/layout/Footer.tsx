@@ -11,14 +11,14 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Md. Sayed Hossain</h3>
             <p className="mb-4">
-              Operations Manager & Data Reporting Specialist with expertise in logistics,
-              business analytics, and process optimization.
+              3PL Operations Manager, Data analysis Specialist with expertise in logistics,
+              business analytics and process optimization.
             </p>
             <div className="flex space-x-4">
-              <SocialLink icon={<Linkedin size={20} />} href="https://www.linkedin.com" />
-              <SocialLink icon={<Github size={20} />} href="https://www.github.com" />
-              <SocialLink icon={<Mail size={20} />} href="mailto:contact@sayedhossain.com" />
-              <SocialLink icon={<Phone size={20} />} href="tel:+8801234567890" />
+              <SocialLink icon={<Linkedin size={20} />} href="https://www.linkedin.com/in/sayed-hossain" />
+              <SocialLink icon={<Github size={20} />} href="https://github.com/sayed-cmd" />
+              <SocialLink icon={<Mail size={20} />} href="saiedhossain76@gmail.com" />
+              <SocialLink icon={<Phone size={20} />} href="tel:+8801738011330" />
             </div>
           </div>
           
@@ -37,8 +37,8 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact Info</h3>
             <address className="not-italic">
               <p className="mb-2">Dhaka, Bangladesh</p>
-              <p className="mb-2">Email: contact@sayedhossain.com</p>
-              <p className="mb-2">Phone: +880 123 456 7890</p>
+              <p className="mb-2">Email: saiedhossain76@gmail.com </p>
+              <p className="mb-2">Phone: +8801738011330 </p>
             </address>
           </div>
         </div>
