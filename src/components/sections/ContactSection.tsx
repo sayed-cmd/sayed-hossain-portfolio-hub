@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import emailjs from '@emailjs/browser';
+import { toast } from '@/components/ui/sonner';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -19,20 +21,52 @@ const ContactSection = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitStatus(null);
     
-    // Simulate form submission
-    setTimeout(() => {
-      console.log('Form submitted:', formData);
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+    try {
+      // Replace these with your actual EmailJS service, template and user IDs
+      const serviceId = "YOUR_EMAILJS_SERVICE_ID";
+      const templateId = "YOUR_EMAILJS_TEMPLATE_ID";
+      const publicKey = "YOUR_EMAILJS_PUBLIC_KEY";
       
-      // Reset status after 3 seconds
-      setTimeout(() => setSubmitStatus(null), 3000);
-    }, 1000);
+      // Send the email using EmailJS
+      const result = await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        publicKey
+      );
+      
+      console.log('Email sent successfully:', result);
+      
+      // Show success message
+      setSubmitStatus('success');
+      toast({
+        title: "Message Sent",
+        description: "Your message has been sent successfully. We'll get back to you soon!",
+      });
+      
+      // Reset form
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    } catch (error) {
+      console.error('Failed to send email:', error);
+      setSubmitStatus('error');
+      toast({
+        title: "Message Failed",
+        description: "There was a problem sending your message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -55,7 +89,7 @@ const ContactSection = () => {
                   icon={<Mail />}
                   title="Email"
                   content="saiedhossain76@gmail.com"
-                  href="saiedhossain76@gmail.com"
+                  href="mailto:saiedhossain76@gmail.com"
                 />
                 
                 <ContactInfo 
