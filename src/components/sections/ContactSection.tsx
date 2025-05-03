@@ -54,15 +54,15 @@ const ContactSection = () => {
                 <ContactInfo 
                   icon={<Mail />}
                   title="Email"
-                  content="contact@sayedhossain.com"
-                  href="mailto:contact@sayedhossain.com"
+                  content="saiedhossain76@gmail.com"
+                  href="saiedhossain76@gmail.com"
                 />
                 
                 <ContactInfo 
                   icon={<Phone />}
                   title="Phone"
-                  content="+880 123 456 7890"
-                  href="tel:+8801234567890"
+                  content="+8801738-011330"
+                  href="tel:+8801738-011330"
                 />
                 
                 <ContactInfo 
@@ -75,7 +75,7 @@ const ContactSection = () => {
               
               <div className="mt-10">
                 <h4 className="font-semibold mb-2">Business Hours:</h4>
-                <p>Monday - Friday: 9AM - 5PM</p>
+                <p>Saturday - Thursday: 9 AM - 5 PM </p>
                 <p>Weekend: By appointment</p>
               </div>
             </div>
@@ -109,7 +109,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                   />
                 </div>
                 
@@ -125,7 +125,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
-                    placeholder="john@example.com"
+                    placeholder="mailid@example.com"
                   />
                 </div>
               </div>
