@@ -52,6 +52,22 @@ const experiences: Experience[] = [
     ],
     skills: ["Sales", "Distribution Management", "Product Promotion", "Maintain Relations"],
   },
+
+  {
+    company: "Firoz Chemicals ",
+    position: "Accountant & Inventory Manager",
+    duration: "2018 - 2019",
+    location: "Dhaka, Bangladesh",
+    description: [
+      "Complying with all company & financial regulations.",
+      "Compiling, analyzing, and reporting financial data.",
+      "Creating periodic reports.",
+      "Maintaining financial transaction records."
+      "Keeping inventory records."
+      "Preparing profit & loss statement."
+    ],
+    skills: ["SAP System", "Inventory Management", "Accounting", "Administration"],
+  },
 ];
 
 const ExperienceSection = () => {
