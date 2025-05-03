@@ -48,7 +48,7 @@ const experiences: Experience[] = [
       "Present, promote, and sell products to existing and prospective customers.",
       "Establish, develop, and maintain positive business.",
       "Achieve agreed-upon sales targets and outcomes within the schedule",
-      "Analyze the territory/market’s potential, track sales, and status reports."
+      "Analyze the territory/market's potential, track sales, and status reports."
     ],
     skills: ["Sales", "Distribution Management", "Product Promotion", "Maintain Relations"],
   },
@@ -62,8 +62,8 @@ const experiences: Experience[] = [
       "Complying with all company & financial regulations.",
       "Compiling, analyzing, and reporting financial data.",
       "Creating periodic reports.",
-      "Maintaining financial transaction records."
-      "Keeping inventory records."
+      "Maintaining financial transaction records.",
+      "Keeping inventory records.",
       "Preparing profit & loss statement."
     ],
     skills: ["SAP System", "Inventory Management", "Accounting", "Administration"],
