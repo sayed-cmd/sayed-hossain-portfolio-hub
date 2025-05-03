@@ -14,7 +14,7 @@ const Header = () => {
     <header className="sticky top-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="container py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-primary">
-          Sayed's <span className="text-secondary">Portfolio</span>
+          💼 <span className="text-secondary"> Portfolio </span>
         </a>
 
         {/* Desktop Navigation */}
